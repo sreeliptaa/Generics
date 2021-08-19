@@ -1,11 +1,18 @@
 package com.generics;
 /**
- * Program to find the maximum of three String
+ * Program to find the maximum
  * @author Sreelipta
  * @since 2021-08-17
  */
-public class MaximumValue {
+public class MaximumValue<T extends Comparable<T>> {
+    T x1, x2, x3;
 
+    public MaximumValue(T x1, T x2, T x3) {
+        this.x1 = x1;
+        this.x2 = x2;
+        this.x3 = x3;
+    }
+    
     /**
      * Generic method to compare any type of data and find maximum
      * @param  x1, x2, x3
