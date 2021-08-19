@@ -1,6 +1,6 @@
 package com.generics;
 /**
- * Program to find the maximum of three String
+ * Refactor all three to one generic method to find maximum value
  * @author Sreelipta
  * @since 2021-08-17
  */
